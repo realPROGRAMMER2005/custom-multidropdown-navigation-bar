@@ -32,12 +32,17 @@ a {
   align-items: center;
   justify-content: space-between;
   height: 60px;
+  position: relative;
+
 }
 
 .nav__logo a {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+
+
 
 .nav__burger {
   display: none;
@@ -66,6 +71,7 @@ a {
   list-style: none;
   display: flex;
   align-items: center;
+
 }
 
 .nav__item {
@@ -145,6 +151,8 @@ a {
   .nav__burger {
     display: flex;
   }
+
+
 
   .nav__menu {
     position: absolute;
