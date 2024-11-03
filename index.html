@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Навигационная панель</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__container">
+      <div class="nav__logo">
+        <a href="#">Логотип</a>
+      </div>
+      <button class="nav__burger" aria-label="Открыть меню">
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+      </button>
+      <ul class="nav__menu">
+        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+        <li class="nav__item nav__item--dropdown">
+          <a href="#" class="nav__link">Услуги</a>
+          <ul class="nav__dropdown">
+            <li class="nav__dropdown-item"><a href="#" class="nav__dropdown-link">Веб-разработка</a></li>
+            <li class="nav__dropdown-item nav__dropdown-item--dropdown">
+              <a href="#" class="nav__dropdown-link">Маркетинг</a>
+              <ul class="nav__dropdown">
+                <li class="nav__dropdown-item"><a href="#" class="nav__dropdown-link">SEO</a></li>
+                <li class="nav__dropdown-item"><a href="#" class="nav__dropdown-link">SMM</a></li>
+              </ul>
+            </li>
+            <li class="nav__dropdown-item"><a href="#" class="nav__dropdown-link">Дизайн</a></li>
+          </ul>
+        </li>
+        <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+        <li class="nav__item nav__item--dropdown">
+          <a href="#" class="nav__link">Услуги</a>
+          <ul class="nav__dropdown">
+            <li class="nav__dropdown-item"><a href="#" class="nav__dropdown-link">Веб-разработка</a></li>
+            <li class="nav__dropdown-item nav__dropdown-item--dropdown">
+              <a href="#" class="nav__dropdown-link">Маркетинг</a>
+              <ul class="nav__dropdown">
+                <li class="nav__dropdown-item"><a href="#" class="nav__dropdown-link">SEO</a></li>
+                <li class="nav__dropdown-item"><a href="#" class="nav__dropdown-link">SMM</a></li>
+              </ul>
+            </li>
+            <li class="nav__dropdown-item"><a href="#" class="nav__dropdown-link">Дизайн</a></li>
+          </ul>
+        </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <script src="nav.js"></script>
+</body>
+</html>
